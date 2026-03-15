@@ -57,7 +57,9 @@ Set these on the **Paperclip** service in Railway (template editor or service Va
 
 Optional (for AI agents):
 
-- **`OPENAI_API_KEY`** — If set, the wrapper runs Codex login at startup so agents using the Codex adapter work. You can also run Codex login from the setup page. Without it, the app and dashboard work; agents that use Codex will fail until the key is set and login is run. “Run Codex login” - **`ANTHROPIC_API_KEY`** — Used by the Claude adapter. Optional; add when you want Claude-based agents.
+- **`OPENAI_API_KEY`** — If set, the wrapper runs Codex login at startup so agents using the Codex adapter work. You can also run Codex login from the setup page. Without it, the app and dashboard work; agents that use Codex will fail until the key is set and login is run.
+
+- **`ANTHROPIC_API_KEY`** — Used by the Claude adapter. Optional; add when you want Claude-based agents.
 
 ## Networking and storage (Railway)
 
